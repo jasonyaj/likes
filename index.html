@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Likes</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Network</h1>
+    </header>
+    <div class="flex feed">
+      <h2>Your Feed</h2>
+    </div>
+    <div class="container flex">
+      <section class="leftSide">
+        <div class="profile column">
+          <div><img src="./img/adrien-s.jpg" alt="" srcset=""></div>
+          <div><a href="#">Add an avatar</a></div>
+          <div>
+            <h2>James Doe</h2>
+          </div>
+        </div>
+      </section>
+      <section class="rightSide column">
+        <div class="flex boxMaker">
+          <article class="user flex">
+            <h2>Neil M</h2>
+            <div class="flex">
+              <h2><span id="count">9</span> like(s)</h2>
+              <button class="btn" onclick="likeCount(this)">Like</button>
+            </div>
+          </article>
+          <section>
+            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+          </section>
+        </div>
+        <div class="flex boxMaker">
+          <article class="user flex">
+            <h2>Nichole K</h2>
+            <div class="flex">
+              <h2><span id="countNichole">12</span> like(s)</h2>
+              <button class="btn" onclick="likeCountNichole(this)">Like</button>
+            </div>
+          </article>
+          <section>
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+          </section>
+        </div>
+        <div class="flex boxMaker">
+          <article class="user flex">
+            <h2>Jim R</h2>
+            <div class="flex">
+              <h2><span id="countJim">9</span> like(s)</h2>
+              <button class="btn" onclick="likeCountJim(this)">Like</button>
+            </div>
+          </article>
+          <section>
+            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+          </section>
+        </div>
+      </section>
+    </div>
+  <script src="./script.js"></script>
+  </div>
+</body>
+</html>
